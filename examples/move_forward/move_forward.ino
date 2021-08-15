@@ -1,5 +1,6 @@
 
-#include "robot/motor.h"
+// Arduino sucks
+#include "C:/git/arduino-robot/libraries/motor.h"
 
 #define RIGHT_MOTOR_FW_PIN 3
 #define RIGHT_MOTOR_BW_PIN 4
