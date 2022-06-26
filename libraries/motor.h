@@ -48,8 +48,6 @@ void motor::stop() {
 
 inline
 void motor::speed(const int16_t& dc) {
-  Serial.println(__bk_pin);
-  Serial.println(__fw_pin);
   if (dc > 0) {
     __direction = forward;
     digitalWrite(__bk_pin, 0);
